@@ -1,0 +1,791 @@
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media all and (min-width: 767px) {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media all and (max-width: 767px) and (min-width: 0px){
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+.navbar {
+    min-height: 20px;
+}
+
+.nav {
+    background-color: white;
+    border-color: white;
+    border-style: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav ul {
+    padding-left: 0;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+
+.footer {
+    background-color: white;
+    border-color: white;
+    border-style: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    color: #5a5a5a;
+    font-size: 8px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
+    
+.footer a {
+    color: grey;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer ul {
+    padding-left: 0;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+
+@media all and (min-width: 700px) {
+.jumbotron {
+    background-image:url('http://poliverstravels.co.uk/images/other/jumbo.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron {
+    background-image:url('http://poliverstravels.co.uk/images/other/jumbo.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron .container {
+    position: relative;
+    top:100px;
+}
+
+@media all and (min-width: 700px) {
+.jumbotron h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron h1 {
+    color: #fff;
+    font-size: 100px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.thumbnail {
+    border-style: none;
+    border: 0px;
+}
+
+.image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+}
+
+@media all and (min-width: 700px) {
+h2 { 
+    position: absolute; 
+    top: 55px; 
+    left: 0; 
+    width: 100%; 
+    color: #fff;
+    font-size: 8vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6)
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+h2 { 
+    position: absolute; 
+    top: 55px; 
+    left: 0; 
+    width: 100%; 
+    color: #fff;
+    font-size: 70px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6)
+}
+}
+
+.contact {
+    color: #5a5a5a;
+    font-size: 50px;
+}
+
+.label {
+    color: #5a5a5a;
+    font-size: 80px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+
+/* bodymaker */
+
+@media all and (min-width: 700px) {
+.jumbotron-bodymaker {
+    background-image:url('http://poliverstravels.co.uk/images/bodymaker/013.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-bodymaker {
+    background-image:url('http://poliverstravels.co.uk/images/bodymaker/013.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-bodymaker .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-bodymaker h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-bodymaker h1 {
+    color: #fff;
+    font-size: 100px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* deer-cake */
+
+@media all and (min-width: 700px) {
+.jumbotron-deer-cake {
+    background-image:url('http://poliverstravels.co.uk/images/deer-cake/008.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-deer-cake {
+    background-image:url('http://poliverstravels.co.uk/images/deer-cake/008.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-deer-cake .container {
+    position: relative;
+    top: 100px;
+}
+
+@media all and (min-width: 700px) {
+.jumbotron-deer-cake h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-deer-cake h1 {
+    color: #fff;
+    font-size: 100px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* hashtag selfie */
+
+@media all and (min-width: 700px) {
+.jumbotron-hashtag-selfie {
+    background-image:url('http://poliverstravels.co.uk/images/hashtag-selfie/005.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-hashtag-selfie {
+    background-image:url('http://poliverstravels.co.uk/images/hashtag-selfie/005.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-hashtag-selfie .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-hashtag-selfie h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-hashtag-selfie h1 {
+    color: #fff;
+    font-size: 100px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* food porn */
+
+@media all and (min-width: 700px) {
+.jumbotron-food-porn {
+    background-image:url('http://poliverstravels.co.uk/images/food-porn/005.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-food-porn {
+    background-image:url('http://poliverstravels.co.uk/images/food-porn/005.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-food-porn .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-food-porn h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-food-porn h1 {
+    color: #fff;
+    font-size: 100px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* farmers tan */
+
+@media all and (min-width: 700px) {
+.jumbotron-farmers-tan {
+    background-image:url('http://poliverstravels.co.uk/images/farmers-tan/003.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-farmers-tan {
+    background-image:url('http://poliverstravels.co.uk/images/farmers-tan/003.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-farmers-tan .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-farmers-tan h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-farmers-tan h1 {
+    color: #fff;
+    font-size: 100px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* o-matsuri-ichi */
+
+@media all and (min-width: 700px) {
+.jumbotron-omatsuri-ichi {
+    background-image:url('http://poliverstravels.co.uk/images/omatsuri-ichi/009.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-omatsuri-ichi {
+    background-image:url('http://poliverstravels.co.uk/images/omatsuri-ichi/009.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-omatsuri-ichi .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-omatsuri-ichi h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-omatsuri-ichi h1 {
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* o-matsuri-ni */
+
+@media all and (min-width: 700px) {
+.jumbotron-omatsuri-ni {
+    background-image:url('http://poliverstravels.co.uk/images/omatsuri-ni/014.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-omatsuri-ni {
+    background-image:url('http://poliverstravels.co.uk/images/omatsuri-ni/014.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-omatsuri-ni .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-omatsuri-ni h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-omatsuri-ni h1 {
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* temple-run */
+
+@media all and (min-width: 700px) {
+.jumbotron-temple-run {
+    background-image:url('http://poliverstravels.co.uk/images/temple-run/005.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-temple-run {
+    background-image:url('http://poliverstravels.co.uk/images/temple-run/005.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-temple-run .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-temple-run h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-temple-run h1 {
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+
+/* graffiti */
+
+@media all and (min-width: 700px) {
+.jumbotron-graffiti {
+    background-image:url('http://poliverstravels.co.uk/images/graffiti/008.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-graffiti {
+    background-image:url('http://poliverstravels.co.uk/images/graffiti/008.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-graffiti .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-graffiti h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-graffiti h1 {
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* animals */
+
+@media all and (min-width: 700px) {
+.jumbotron-animals {
+    background-image:url('http://poliverstravels.co.uk/images/animals/005.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-animals {
+    background-image:url('http://poliverstravels.co.uk/images/animals/005.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+}
+
+.jumbotron-animals .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-animals h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-animals h1 {
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* squad goals */
+
+@media all and (min-width: 700px) {
+.jumbotron-squad-goals {
+    background-image:url('http://poliverstravels.co.uk/images/squad-goals/005.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-squad-goals {
+    background-image:url('http://poliverstravels.co.uk/images/squad-goals/005.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-squad-goals .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-squad-goals h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-squad-goals h1 {
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* men at work */
+
+@media all and (min-width: 700px) {
+.jumbotron-men-at-work {
+    background-image:url('http://poliverstravels.co.uk/images/men-at-work/007.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-men-at-work {
+    background-image:url('http://poliverstravels.co.uk/images/men-at-work/007.jpg');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+.jumbotron-men-at-work .container {
+    position: relative;
+    top:100px;
+}
+@media all and (min-width: 700px) {
+.jumbotron-men-at-work h1 {
+    color: #fff;
+    font-size: 16.5vw;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 0px){
+.jumbotron-men-at-work h1 {
+    color: #fff;
+    font-size: 90px;  
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 0.6);
+}
+}
+
+/* END OF POST CODE*/
+
+.intro {
+    font-family: 'Pompiere', cursive;
+    color: #5a5a5a;
+    font-size: 21px;
+    font-weight: ;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.error {
+    font-family: 'Pompiere', cursive;
+    color: #5a5a5a;
+    font-size: 30px;
+    font-weight: ;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title {
+    font-family: 'Amatic SC', cursive;
+    color: #5a5a5a;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.top {
+    font-family: 'Amatic SC', cursive;
+    color: #5a5a5a;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home {
+    font-family: 'Amatic SC', cursive;
+    color: #5a5a5a;
+    font-size: 10vw;
+    font-weight: bold;
+    text-align: center
+}
