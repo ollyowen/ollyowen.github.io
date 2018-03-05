@@ -275,7 +275,7 @@ h2 {
 
 @media all and (min-width: 700px) {
 .jumbotron-hashtag-selfie {
-    background-image:url('http://poliverstravels.co.uk/images/hashtag-selfie/005.jpg');
+    background-image:url('http://poliverstravels.co.uk/images/selfie/005.jpg');
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +285,7 @@ h2 {
 
 @media all and (max-width: 700px) and (min-width: 0px){
 .jumbotron-hashtag-selfie {
-    background-image:url('http://poliverstravels.co.uk/images/hashtag-selfie/005.jpg');
+    background-image:url('http://poliverstravels.co.uk/images/selfie/005.jpg');
     height: 470px;
     background-repeat: no-repeat;
     background-size: cover;
